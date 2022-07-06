@@ -14,7 +14,7 @@ You just call the feature manager needed via a static method from the class call
 BankManager bankManager = ExcessiveAPI.getBankManager();
 
 // Method examples...
-bankManager.editPlayerBalance(player, 6.9, Operator.ADD);
+bankManager.editPlayerBalance(player, 1.2, Operator.ADD);
 instance.getLogger().info(player.getDisplayName() + ": " + bankManager.getCurrentCurrencySymbol() + bankManager.getBalance(player));
 bankManager.setCurrencySymbol("€");
 instance.getLogger().info(player.getDisplayName() + ": " + bankManager.getCurrentCurrencySymbol() + bankManager.getBalance(player));
